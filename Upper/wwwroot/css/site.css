@@ -1,0 +1,69 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+.bg-img {
+    background-image: url('../Biblioteca.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.azul {
+    color: aqua;
+    padding: 6px 10px;
+    border-radius: 15px;
+    background-color: #000000;
+}
+
+.red {
+    color: red;
+    padding: 6px 10px;
+    border-radius: 15px;
+    background-color: #b9b2b2;
+}
+
+.borda {
+    padding: 6px 10px;
+    border-radius: 15px;
+    background-color: #b9b2b2;
+}
+
+.verde {
+    padding: 6px 10px;
+    border-radius: 15px;
+    background-color: #b4f89d;
+}
+
+.centralizar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.espaco{
+    margin-top: 12px;
+}
